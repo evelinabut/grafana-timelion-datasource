@@ -104,7 +104,6 @@ System.register(["lodash"], function (_export, _context) {
               "time": {
                 "from": "now-1m",
                 "to": "now",
-                "mode": "quick",
                 "interval": "auto",
                 "timezone": "Europe/Berlin"
               }
@@ -224,7 +223,6 @@ System.register(["lodash"], function (_export, _context) {
               "time": {
                 "from": options.range.from.utc().format("YYYY-MM-DDTHH:mm:ss\\Z"),
                 "interval": "auto",
-                "mode": "absolute",
                 "timezone": "GMT",
                 "to": options.range.to.utc().format("YYYY-MM-DDTHH:mm:ss\\Z")
               }
